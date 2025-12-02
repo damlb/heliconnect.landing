@@ -1,0 +1,22 @@
+# Robots.txt pour HeliConnect
+# Ce fichier indique aux moteurs de recherche comment explorer le site
+
+# Autoriser tous les robots (Google, Bing, etc.)
+User-agent: *
+Allow: /
+
+# Bloquer les bots malveillants connus
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap (à mettre à jour après déploiement avec le vrai domaine)
+Sitemap: https://heliconnect.fr/sitemap.xml
+
+# Délai entre les requêtes (en secondes) - évite de surcharger le serveur
+Crawl-delay: 1
